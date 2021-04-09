@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.tacobell.com/images/2019-Blog-Wallpaper-14.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    min-height: 95vh;
+    display: grid;
+    place-items: center;
+    background-color:grey;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    place-items: center;
+    display: grid;
+    background: transparent;
+
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    min-height: 82vh;
+    max-height: 95%;
+    max-width: 95%;
+    display: flex;
+    flex-direction:column;
+    background: rgba(34, 34, 34, 0.9);
+    color: white;
+    padding: 2em;
+    position: relative;
+}
+
+.card-main {
+    display: flex;
+    opacity: 100;
+    font-size: 1em;
+    text-align: center;
+    flex-direction:inherit;
+
+}
+
+.social-list {
+    display: flex;
+    opacity: 100%;
+    text-align: center;
+    font-size: 3em;
+    position: absolute;
+    bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: auto;
+    bottom: 2px;
+    
+}
+.action-button {
+    display: flex;
+    background:rgba(83, 0, 90, 100%);
+    border: none;
+    color: white;
+    padding: 8% 30%;
+    text-align: center;
+    font-size: 4em;
+    margin: 4px 1px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+}
