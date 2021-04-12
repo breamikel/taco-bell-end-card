@@ -3,74 +3,133 @@
 }
 
 body {
-    background-image: url(https://www.tacobell.com/images/2019-Blog-Wallpaper-14.jpg);
+    background-image: url(https://breamikel.github.io/taco-bell-end-card/neon-taco-bell.png);
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    min-height: 95vh;
+    line-height: 1.6px;
+    min-height: 98vh;
     display: grid;
     place-items: center;
-    background-color:grey;
-    padding: 5px;
+    background-color:rgb(37, 1, 71);
+    padding: 0;
 }
 
 .logo {
     display: flex;
     place-items: center;
     display: grid;
-    background: transparent;
-
 }
 
 .card {
-    width: 100%;
-    height: 100%;
-    min-height: 82vh;
-    max-height: 95%;
-    max-width: 95%;
+    width: 97%;
+    height: 97%;
+    max-height: 815px;
+    max-width: 600px;
     display: flex;
     flex-direction:column;
-    background: rgba(34, 34, 34, 0.9);
+    background: rgba(40, 13, 75, 0.89);
     color: white;
-    padding: 2em;
-    position: relative;
+    padding: 1em;
+    text-align: center;
 }
 
 .card-main {
     display: flex;
-    opacity: 100;
-    font-size: 1em;
-    text-align: center;
+    opacity: 1;
     flex-direction:inherit;
+    top: 3em;
+    position: relative;
+}
 
+.card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-group {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 4em;
+    position: relative;
+}
+
+.btn-link {
+    display: flex;
+    background:rgba(106, 34, 116, 0.788);
+    border-radius: 2px;
+    border: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 8px 8px;
+    padding: 33px;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.icons {
+    position: relative;
+    top: 6em;
+    place-items: center;
 }
 
 .social-list {
     display: flex;
-    opacity: 100%;
-    text-align: center;
-    font-size: 3em;
-    position: absolute;
-    bottom: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 45px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: auto;
-    bottom: 2px;
-    
+.fab {
+    color: rgb(162, 236, 255);
+    opacity: 0.8;
+    text-decoration: none;
 }
-.action-button {
-    display: flex;
-    background:rgba(83, 0, 90, 100%);
-    border: none;
-    color: white;
-    padding: 8% 30%;
+
+.fab:hover,
+.fab:focus {
+    opacity: 1;
+}
+
+@media (min-width: 400px) {
+  
+.card { 
+    max-width: 800px;
+    max-height: 1030px;
+    padding: 1em;
     text-align: center;
-    font-size: 4em;
-    margin: 4px 1px;
-    cursor: pointer;
+  }
+
+.logo {
+    position: relative;
+    right: 15em;
+}
+.card-main {
+    width: 620px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.social-list {
+    font-size: 50px;
+    display: flex;
     position: fixed;
-    bottom: 30px;
+    top: 85px;
+    right: 45px;
+}
+
+.btn-link {
+    font-size: 42px;
+}
+
+.btn-group {
+    width: 40em;
+    margin: 0 auto;
+}
 }
