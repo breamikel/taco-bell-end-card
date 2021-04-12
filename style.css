@@ -29,7 +29,7 @@ body {
     flex-direction:column;
     background: rgba(40, 13, 75, 0.89);
     color: white;
-    padding: 1em;
+    padding: 10px;
     text-align: center;
 }
 
