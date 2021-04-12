@@ -1,5 +1,7 @@
 # taco-bell-end-card
-A mobile end card for the Taco Bell 2017 Belluminati Commercial. https://www.youtube.com/watch?v=7vZBHfyq3TE
+https://breamikel.github.io/taco-bell-end-card/
+<br>
+A mobile end card for the Taco Bell 2017 Belluminati Commercial – https://www.youtube.com/watch?v=7vZBHfyq3TE
 <br>
 Optimized for the following screen sizes:
 <i><br>
