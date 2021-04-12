@@ -5,7 +5,7 @@ A mobile end card for the Taco Bell 2017 Belluminati Commercial – https://www.
 <br>
 Optimized for the following screen sizes:
 <i><br>
-iPhone X – 375x812 (Portrait)
+iPhone X – 375x812 and 812x375 (Portrait and Landscape mode)
 <br>
-iPad – 768x1024 and 1024x768 (Portrait and Landscape)
+iPad – 768x1024 and 1024x768 (Portrait and Landscape mode)
 </i>
